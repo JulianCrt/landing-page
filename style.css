@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     
+    
 }
 
 .header {
@@ -15,6 +16,7 @@ body {
     padding-left: 170px;
     padding-right: 200px;
     background-color: #1F2937;
+    flex: 1;
 }
 
 .links {
@@ -30,6 +32,7 @@ body {
     padding: 100px 200px;
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 
 .wrap {
@@ -37,7 +40,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-
+    flex: 1;
 }
 
 .title {
@@ -70,4 +73,97 @@ a {
     text-decoration: none;
     list-style: none;
     color: white;
+}
+
+
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    flex: 1 auto;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    gap: 80px;
+    margin-bottom: 60px;
+    
+    
+}
+
+.card {
+   flex: 1 auto; 
+   
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 16px;
+   text-align: center;
+   font-size: 18px;
+
+}
+
+.picture {
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+
+
+.quote {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.inspo {
+    display: flex;
+    margin: 50px 300px 0px 300px;
+    font-size: 36px;
+}
+
+.author {
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bottombar {
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+}
+
+.call {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    color: white;
+    width: 80%;
+    padding: 40px 80px;
+    border-radius: 12px;
+    justify-content: space-between;
+}
+
+
+
+.button2 {
+    border-radius: 12px;
+    border-color: white;
 }
