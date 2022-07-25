@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     
-    
 }
 
 .header {
@@ -67,6 +66,10 @@ button {
     font-size: 16px;
     border-radius: 12px;
     border: 0;
+}
+
+button:hover {
+  background-color:  rgb(32, 35, 90);
 }
 
 a {
@@ -152,7 +155,7 @@ a {
 
 .call {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #3882F6;
     color: white;
     width: 80%;
@@ -162,8 +165,14 @@ a {
 }
 
 
-
-.button2 {
+input[type="submit"] {
+    border: solid white;
     border-radius: 12px;
-    border-color: white;
+    background-color: #3882F6;
+    color: white;
+    padding: 12px 30px;
+}
+
+input[type="submit"]:hover{
+background-color: rgb(32, 35, 90);
 }
