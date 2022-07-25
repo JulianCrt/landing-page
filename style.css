@@ -15,7 +15,7 @@ body {
     padding-left: 170px;
     padding-right: 200px;
     background-color: #1F2937;
-    flex: 1;
+    flex-wrap: wrap;
 }
 
 .links {
@@ -31,7 +31,7 @@ body {
     padding: 100px 200px;
     display: flex;
     justify-content: space-between;
-    flex: 1;
+    flex-wrap: wrap;
 }
 
 .wrap {
@@ -90,6 +90,8 @@ a {
     color: #1F2937;
 }
 
+
+
 .cards {
     display: flex;
     flex: 1 auto;
@@ -99,7 +101,7 @@ a {
     width: 130px;
     gap: 80px;
     margin-bottom: 60px;
-    
+   
     
 }
 
